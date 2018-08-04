@@ -7,7 +7,7 @@
 
 ## Run the tests
 
-`$ lein test
+`$ lein test`
 
 ## License
 
