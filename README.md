@@ -1,6 +1,10 @@
 # scramble
 
-## Usage
+## View live
+
+https://lit-island-40577.herokuapp.com/
+
+## Run locally
 
 1. Start the server with `lein run`
 2. Open browser to localhost:8080
