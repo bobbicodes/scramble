@@ -30,7 +30,13 @@
 (def app
   (-> handler wrap-params))
 
-(jetty/run-jetty app {:port 8080})
+(defn start [port]
+  (jetty/run-jetty app {:port port
+                               :join? false}))
+
+(defn -main []
+  (let [port (Integer. (or (System/getenv "PORT") "8080"))]
+    (start port)))
 
 ;(scramble? “rekqodlw” ”world') ==> true
 ;(scramble? “cedewaraaossoqqyt” ”codewars”) ==> true
