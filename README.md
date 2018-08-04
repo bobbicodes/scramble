@@ -2,8 +2,8 @@
 
 ## Usage
 
-1. Start a leiningen repl.
-2. Server will start on port 8080
+1. Start the server with `lein run`
+2. Open browser to localhost:8080
 
 ## License
 
