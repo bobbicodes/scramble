@@ -1,7 +1,6 @@
 (ns scramble.core
   (:require [ring.middleware.params :refer :all]
             [ring.util.response :refer :all]
-            [ring.middleware.multipart-params :refer :all]
             [ring.adapter.jetty :as jetty])
   (:gen-class))
 
