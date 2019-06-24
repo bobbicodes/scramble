@@ -38,7 +38,7 @@
   (let [port (Integer. (or (System/getenv "PORT") "8080"))]
     (start port)))
 
-;(scramble? “rekqodlw” ”world") ==> true
-;(scramble? “cedewaraaossoqqyt” ”codewars”) ==> true
-;(scramble? “katas”  “steak”) ==> false
+;(scramble? "rekqodlw" "world") ==> true
+;(scramble? "cedewaraaossoqqyt" "codewars") ==> true
+;(scramble? "katas"  "steak") ==> false
 
